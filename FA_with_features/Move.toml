@@ -1,0 +1,16 @@
+[package]
+name = "FA_with_Features"
+version = "1.0.0"
+authors = []
+
+[addresses]
+vangogh="30039623a75fb8e23a432ca10ebef0a27b4b09e9d1c570bd856b9033bbe4b7a1"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
